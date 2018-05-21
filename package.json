@@ -1,0 +1,26 @@
+{
+  "name": "genetic_algo",
+  "version": "1.0.0",
+  "description": "try genetic algos",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest",
+    "testWatch": "./node_modules/.bin/jest --watchAll",
+    "basicDemo": "./node_modules/.bin/babel-node ./src/basic_structure/demo.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "jest": "^22.4.3"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js?$": "babel-jest"
+    }
+  }
+}
