@@ -1,9 +1,8 @@
 import Individual from '../individual';
 
 describe('fitness function', () => {
-  const subject = new Individual();
+  const subject = new Individual([1,1,1,1,1]);
   it('fitness is a count of ones', () => {
-    const expected = subject.genes.reduce((a,c) => (c == 1 ? a++ : a ));
-    expect(subject.fitness).toEqual(expected);
+    expect(subject.fitness()).toEqual(5);
   });
 });
