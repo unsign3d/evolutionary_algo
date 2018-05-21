@@ -1,12 +1,12 @@
 {
-  "name": "genetic_algo",
+  "name": "evolutionary_algo",
   "version": "1.0.0",
-  "description": "try genetic algos",
+  "description": "try evolutionary algos",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/jest",
     "testWatch": "./node_modules/.bin/jest --watchAll",
-    "basicDemo": "./node_modules/.bin/babel-node ./src/basic_structure/demo.js"
+    "basicDemo": "./node_modules/.bin/babel-node ./src/basic_genetic_algo/demo.js"
   },
   "author": "",
   "license": "ISC",
