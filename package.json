@@ -6,7 +6,8 @@
   "scripts": {
     "test": "./node_modules/.bin/jest",
     "testWatch": "./node_modules/.bin/jest --watchAll",
-    "basicDemo": "./node_modules/.bin/babel-node ./src/basic_genetic_algo/demo.js"
+    "basicDemo": "./node_modules/.bin/babel-node ./src/basic_genetic_algo/demo.js",
+    "rouletteDemo": "./node_modules/.bin/babel-node ./src/roulette_wheel_selection/demo.js"
   },
   "author": "",
   "license": "ISC",

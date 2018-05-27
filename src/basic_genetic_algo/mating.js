@@ -1,4 +1,4 @@
-class NaturalSelection {
+class Mating {
   static crossover(parents){
     const crossoverPoint = Math.floor((Math.random() * 10) + 1) % parents[0].genesLength;
     const genes = parents[0].genes.slice();
@@ -14,4 +14,4 @@ class NaturalSelection {
   }
 }
 
-export default NaturalSelection;
+export default Mating;

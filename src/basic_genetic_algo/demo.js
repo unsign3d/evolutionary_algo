@@ -1,6 +1,6 @@
 import Population from './population';
 import Individual from './individual';
-import NaturalSelection from './natural-selection';
+import Mating from './mating';
 
 const fittestInGenration = () => {
   const individuals = [];
@@ -29,9 +29,9 @@ const fittestInTimeline = () => {
   console.log(`The fittest individual score: ${population.fittest().fitness()} with genes: ${population.fittest().printGenes()}`);
   
   while(population.fittest().fitness() < 6) {
-    var genes = NaturalSelection.crossover([population.fittest(),population.secondFittest()]);
+    var genes = Mating.crossover([population.fittest(),population.secondFittest()]);
     
-    NaturalSelection.mutation(genes);
+    Mating.mutation(genes);
     
     population.replace(
       population.leastFittest(),
