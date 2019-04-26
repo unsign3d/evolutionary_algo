@@ -4,24 +4,35 @@
   "description": "try evolutionary algos",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/jest",
-    "testWatch": "./node_modules/.bin/jest --watchAll",
-    "basicDemo": "./node_modules/.bin/babel-node ./src/basic_genetic_algo/demo.js",
-    "rouletteDemo": "./node_modules/.bin/babel-node ./src/roulette_wheel_selection/demo.js"
+    "lint": "eslint .",
+    "test": "jest",
+    "testWatch": "jest --watchAll",
+    "basicDemo": "babel-node ./src/basic_genetic_algo/demo.js",
+    "rouletteDemo": "babel-node ./src/roulette_wheel_selection/demo.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-jest": "^22.4.3",
-    "babel-preset-env": "^1.7.0",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^16.1.0",
-    "jest": "^22.4.3"
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.4.2",
+    "jest": "^24.7.1"
   },
   "jest": {
     "transform": {
       "^.+\\.js?$": "babel-jest"
     }
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jest": "^22.5.1",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0"
   }
 }
