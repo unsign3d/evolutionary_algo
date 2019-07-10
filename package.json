@@ -15,7 +15,7 @@
   "dependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
-    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-env": "^7.5.4",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.4.2",
     "jest": "^24.8.0"
