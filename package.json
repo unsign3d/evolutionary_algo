@@ -18,7 +18,7 @@
     "@babel/preset-env": "^7.7.7",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^24.9.0",
-    "jest": "^24.9.0"
+    "jest": "^25.2.7"
   },
   "jest": {
     "transform": {
